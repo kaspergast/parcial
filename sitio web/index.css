@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 300px;
+}
+
+.in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.in-flex div{
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+.cuadrado{
+    width: 1920px;
+    height: 929px;
+    background-color: black;
+}
+
+/*particulas de decoracion*/
+/*1*/
+.bubbles span{
+    width: 5px;
+    height: 5px;
+    background:#ffff;
+    margin: 60px 135px;
+    border-radius: 100%;
+    box-shadow: 0 0 0 3px #09876579,
+    0 0 50px #ffff,
+    0 0 100px #fff;
+    /*anicion de las particulas*/
+   animation-name: pepe;
+    animation-duration: 6s;
+    animation-duration: calc(130s / var(--i));
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+} 
+
+
+.pas{
+    position: absolute;
+    top: -70px;
+    left: 690px;
+    display: flex;
+}
+
+.pas span 
+{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: 0 80px;
+    background:#ffff;
+    box-shadow: 0 0 0 3px #09876579,
+    0 0 50px #ffff,
+    0 0 100px #fff; 
+    /*anicion de las particulas*/
+    animation-name: pepe;
+    animation-duration: 6s;
+    animation-duration: calc(130s / var(--i));
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+}
+
+@keyframes pepe{
+    0%
+    {
+        transform: translateX(0);
+    }
+    
+    100%
+    {
+    transform:translateY(5vh) scale(.1) scale(.0) scale(.2);
+    }
+}
+
+.pera{
+    position: absolute;
+    top: 140px;
+    left:  550px;
+    display: flex;
+}
+
+.pera span 
+{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: 0 100px;
+    background:#ffff;
+    box-shadow: 0 0 0 3px #09876579,
+    0 0 50px #ffff,
+    0 0 100px #fff;
+    /*anicion de las particulas*/
+    animation-name: pepe;
+    animation-duration: 6s;
+    animation-duration: calc(130s / var(--i));
+    animation-iteration-count: infinite;
+    animation-direction: linear; 
+}
+.para{
+    position: absolute;
+    top: 240px;
+    left:  0px;
+    display: flex;
+}
+
+.para span{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: 0 134px;
+    background:#ffff;
+    box-shadow: 0 0 0 3px #09876579,
+    0 0 50px #ffff,
+    0 0 100px #fff; 
+    /*anicion de las particulas*/
+    animation-name: pepe;
+    animation-duration: 6s;
+    animation-duration: calc(130s / var(--i));
+    animation-iteration-count: infinite;
+    animation-direction: linear; 
+}
+
+.heroe{
+    position: absolute;
+    top: 420px;
+    left:  350px;
+    display: flex;
+}
+
+.heroe span{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: 0 150px;
+    background:#ffff;
+    box-shadow: 0 0 0 3px #09876579,
+    0 0 50px #ffff,
+    0 0 100px #fff; 
+    /*anicion de las particulas*/
+    animation-name: pepe;
+    animation-duration: 6s;
+    animation-duration: calc(130s / var(--i));
+    animation-iteration-count: infinite;
+    animation-direction: linear; 
+}
+
+.man{
+    position: absolute;
+    top: 520px;
+    left:  0px;
+    display: flex;
+}
+
+.man span{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: 0 134px;
+    background:#ffff;
+    box-shadow: 0 0 0 3px #09876579,
+    0 0 50px #ffff,
+    0 0 100px #fff; 
+    /*anicion de las particulas*/
+    animation-name: pepe;
+    animation-duration: 6s;
+    animation-duration: calc(130s / var(--i));
+    animation-iteration-count: infinite;
+    animation-direction: linear; 
+}
+
+.este{
+    position: absolute;
+    top: 720px;
+    left:  0px;
+    display: flex;
+}
+
+.este span{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: 0 134px;
+    background:#ffff;
+    box-shadow: 0 0 0 3px #09876579,
+    0 0 50px #ffff,
+    0 0 100px #fff; 
+    /*anicion de las particulas*/
+    animation-name: pepe;
+    animation-duration: 6s;
+    animation-duration: calc(130s / var(--i));
+    animation-iteration-count: infinite;
+    animation-direction: linear; 
+}
+
+
+.mas{
+    position: absolute;
+    top: 610px;
+    left:  250px;
+    display: flex;
+}
+
+.mas span{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: 0 100px;
+    background:#ffff;
+    box-shadow: 0 0 0 3px #09876579,
+    0 0 50px #ffff,
+    0 0 100px #fff; 
+    /*anicion de las particulas*/
+    animation-name: pepe;
+    animation-duration: 6s;
+    animation-duration: calc(130s / var(--i));
+    animation-iteration-count: infinite;
+    animation-direction: linear; 
+}
+
+.las{
+    position: absolute;
+    top: 810px;
+    left:  0px;
+    display: flex;
+}
+
+.las span{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: 0 130px;
+    background:#ffff;
+    box-shadow: 0 0 0 3px #09876579,
+    0 0 50px #ffff,
+    0 0 100px #fff; 
+    /*anicion de las particulas*/
+    animation-name: pepe;
+    animation-duration: 6s;
+    animation-duration: calc(130s / var(--i));
+    animation-iteration-count: infinite;
+    animation-direction: linear; 
+}
+
+/*partwe de los triangulos*/
+
+.triangulo{
+    width: 750px;
+    height: 0px;
+    border-top: 100px solid #3c3c3c3c;
+    border-right: 100px solid transparent;
+    position: absolute;
+}
+
+.liner{
+    width: 720px;
+    height: 0px;
+    border-top: 80px solid #272727;
+    border-right: 80px solid transparent;
+
+}
+
+.second_part{
+    height: 0;
+    width: 0;
+    border-top: 100px solid #3C3C3C3C;
+    border-left: 100px solid transparent;
+    position: absolute;
+    left: 1120px;
+    top:0;
+
+}
+
+.second{
+    background-color: #3C3C3C3C;
+    width: 700px;
+    height: 100px; 
+    position: absolute;
+    left: 1220px;
+    top:0;
+
+}
+
+.recta{
+    height: 0;
+    width: 0;
+    border-top: 80px solid #272727;
+    border-left: 80px solid transparent;
+    position: absolute;
+    left: 1150px;
+    top:0;
+}
+
+.rectangulo{
+    background-color: #272727;
+    width: 690px;
+    height: 80px; 
+    position: absolute;
+    left: 1230px;
+    top:0;
+}
+
+.extreme{
+    width: 590px;
+    height: 0px;
+    border-top: 100px solid #3c3c3c3c;
+    border-right: 100px solid transparent;
+    position: absolute;
+    top: 200px;
+}
+
+.perfoman{
+    width: 560px;
+    height: 0px;
+    border-top: 80px solid #272727;
+    border-right: 80px solid transparent;
+    position: absolute;
+    top: 200px;
+}
+
+.alfrente{
+    height: 0;
+    width: 0;
+    border-top: 100px solid #3C3C3C3C;
+    border-left: 100px solid transparent;
+    position: absolute;
+    left: 1300px;
+    top: 200px;
+}
+
+.encierra{
+    background-color: #3C3C3C3C;
+    width: 520px;
+    height: 100px; 
+    position: absolute;
+    left: 1400px;
+    top: 200px;
+}
+
+.arco{
+    height: 0;
+    width: 0;
+    border-top: 80px solid #272727;
+    border-left: 80px solid transparent;
+    position: absolute;
+    left: 1325px;
+    top:200px;
+}
+
+.flecha{
+    background-color: #272727;
+    width: 515px;
+    height: 80px; 
+    position: absolute;
+    left: 1405px;
+    top: 200px;
+}
+
+.tres{
+    width: 440px;
+    height: 0px;
+    border-top: 100px solid #3c3c3c3c;
+    border-right: 100px solid transparent;
+    position: absolute;
+    top: 400px;
+}
+
+.dos{
+    width: 410px;
+    height: 0px;
+    border-top: 80px solid #272727;
+    border-right: 80px solid transparent;
+    position: absolute;
+    top: 400px;
+}
+
+.cuatro{
+    height: 0;
+    width: 0;
+    border-top: 100px solid #3C3C3C3C;
+    border-left: 100px solid transparent;
+    position: absolute;
+    left: 1460px;
+    top: 400px;
+}
+
+.cinco{
+    background-color: #3C3C3C3C;
+    width: 360px;
+    height: 100px; 
+    position: absolute;
+    left: 1560px;
+    top: 400px;
+}
+
+.seis{
+    height: 0;
+    width: 0;
+    border-top: 80px solid #272727;
+    border-left: 80px solid transparent;
+    position: absolute;
+    left: 1490px;
+    top:400px;
+}
+
+.ciete{
+    background-color: #272727;
+    width: 350px;
+    height: 80px; 
+    position: absolute;
+    left: 1570px;
+    top: 400px;
+}
+
+.ocho{
+    width: 260px;
+    height: 0px;
+    border-top: 100px solid #3c3c3c3c;
+    border-right: 100px solid transparent;
+    position: absolute;
+    top: 600px;
+}
+
+.nueve{
+    width: 230px;
+    height: 0px;
+    border-top: 80px solid #272727;
+    border-right: 80px solid transparent;
+    position: absolute;
+    top: 600px;
+}
+
+.dies{
+    height: 0;
+    width: 0;
+    border-top: 100px solid #3C3C3C3C;
+    border-left: 100px solid transparent;
+    position: absolute;
+    left: 1650px;
+    top: 600px;
+}
+
+.once{
+    background-color: #3C3C3C3C;
+    width: 170px;
+    height: 100px; 
+    position: absolute;
+    left: 1750px;
+    top: 600px;
+}
+
+.doce{
+    height: 0;
+    width: 0;
+    border-top: 80px solid #272727;
+    border-left: 80px solid transparent;
+    position: absolute;
+    left: 1680px;
+    top: 600px;
+}
+
+.trece{
+    background-color: #272727;
+    width: 160px;
+    height: 80px; 
+    position: absolute;
+    left: 1760px;
+    top: 600px;
+}
+
+.catorce{
+    width: 0px;
+    height: 0px;
+    border-top: 90px solid #3c3c3c3c;
+    border-right: 90px solid transparent;
+    position: absolute;
+    top: 800px;
+}
+
+.quinse{
+    width: 0px;
+    height: 0px;
+    border-top: 70px solid #272727;
+    border-right: 70px solid transparent;
+    position: absolute;
+    top: 800px;
+}
+
+.diesiseis{
+    height: 0;
+    width: 0;
+    border-top: 90px solid #3C3C3C3C;
+    border-left: 90px solid transparent;
+    position: absolute;
+    left: 1830px;
+    top: 800px;
+}
+
+.disiete{
+    height: 0;
+    width: 0;
+    border-top: 70px solid #272727;
+    border-left: 70px solid transparent;
+    position: absolute;
+    left: 1850px;
+    top: 800px;
+}
+
+.bubbles{
+    position: relative;
+    display: flex;
+}
+
+/* hagujeron negro */
+.pele{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+
+}
